@@ -1,3 +1,5 @@
 /target
 .vscode/**
 out.bin
+mem.bin
+.idea/

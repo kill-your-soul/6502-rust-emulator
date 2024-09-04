@@ -1,4 +1,4 @@
-use std::{ops::{Index, IndexMut}, path};
+use std::ops::{Index, IndexMut};
 
 #[warn(unused_imports)]
 use crate::{Byte, Word};
@@ -50,4 +50,3 @@ impl IndexMut<Word> for Mem {
         &mut self.data[address as usize]
     }
 }
-
