@@ -26,7 +26,7 @@ impl OpCode {
     pub const INS_LDY_ABS: Byte = 0xAC;
     pub const INS_LDY_ABSX: Byte = 0xBC;
 
-    // STA 
+    // STA
     pub const INS_STA_ZP: Byte = 0x85;
     pub const INS_STA_ZPX: Byte = 0x95;
     pub const INS_STA_ABS: Byte = 0x8D;
